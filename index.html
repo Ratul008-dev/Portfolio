@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio site</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/83c30f88a5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+<div class="container">
+    <nav>
+        <img src="image/logo.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p>Graphic Desingner & WordPress Developer</p>
+        <h1>Creative mind of<br> <span>Ratul </span>Ganguly</h1>
+    </div>
+</div>
+
+</div>    
+    <div id="about">
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="image/SMILLING.jpg" >
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1><br><br>
+            <p>Hi, I’m Ratul Ganguly, a passionate WordPress Developer and Graphic Designer with a strong eye for creativity and functionality. Coming from an arts background, I found my true passion in web development, where I combine design aesthetics with technical expertise to create seamless and engaging digital experiences.
+
+                I specialize in WordPress development, including theme customization, API integration, and frontend design. My problem-solving mindset and dedication to learning have helped me overcome challenges, making me adaptable in the ever-evolving tech world.
+                
+                Beyond web development, I’m also a certified graphic designer, skilled in crafting visually appealing designs using Illustrator and Photoshop. I love bringing ideas to life through concept-driven graphics and user-friendly web interfaces.
+                
+                I’m currently seeking opportunities to grow as a WordPress Developer, where I can apply my skills and continue to innovate. If you’re looking for someone who blends creativity with technical expertise, let’s connect!
+                
+            </p>
+
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Graphic</span><br>Design</li>
+                    <li><span>Website</span><br>Design</li>
+                    <li><span>WordPress</span><br>Design & Development</li>
+                </ul>
+
+
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2022 - Present</span><br>Computer Trainer</li>
+                    <li><span>2023 - Present</span><br>Home Tutor</li>
+                    
+                </ul>
+
+
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2023 </span><br>Graduation in English</li>
+                    <li><span>2024</span><br>Graphic Design for Web Course</li>
+                    
+                </ul>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-eye-dropper"></i>
+                    <h2>Graphic Design</h2><br>
+                    <p>
+                        I create visually compelling designs using Illustrator & Photoshop, specializing in:
+
+                        Logo & Branding – Unique brand identities.
+                        
+                        Print & Digital Media – Brochures, posters, social media graphics.
+                        
+                        UI/UX Graphics – Aesthetic and user-friendly web/app visuals.
+                        
+                        Photo Editing – Retouching, color correction, enhancements.
+                        
+                       <br> Let's bring your ideas to life with creative, concept-driven designs! 
+
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2><br>
+                    <p>I craft modern, responsive, and user-friendly websites using HTML, CSS, and JavaScript. My designs focus on clean aesthetics, intuitive navigation, and seamless user experience. From landing pages to full websites, I ensure visually appealing and functional designs tailored to your needs.
+
+                       <br> Let’s build something amazing!</p>
+                        <br><a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-wordpress"></i>
+                    <h2>WordPress Developing</h2><br>
+                    <p>I specialize in custom WordPress development, including theme customization, API integration, and frontend design. I build responsive, fast, and SEO-friendly websites tailored to your needs.
+
+                        <br>Let’s create something powerful with WordPress!</p>
+                       <br><br><br> <a href="#">Learn more</a>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- --------portfolio------- -->
+ <div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My Work</h1>
+<div class="work-list">
+    <div class="work">
+        <img src="image/gfx1.png">
+        <div class="layer">
+            <h3>Graphic Design</h3>
+            <p>I create atmospheric and concept-driven digital artwork that evokes emotion and storytelling.<br> 
+                This piece blends light, shadow, and composition to create a haunting yet mesmerizing visual experience.</p>
+<a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>        
+        </div>
+    </div>
+    <div class="work">
+        <img src="image/web.d png.png">
+        <div class="layer">
+            <h3>Web Design</h3>
+            <p>This project showcases my expertise in crafting sleek, responsive, and visually engaging web designs.<br> 
+                With a focus on clean UI, intuitive navigation, and modern aesthetics,
+                 it reflects my passion for blending functionality with creativity.</p>
+<a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>        
+        </div>
+    </div>
+    <div class="work">
+        <img src="image/w.press.d png.png">
+        <div class="layer">
+            <h3>WordPres Developing</h3>
+            <p>This project highlights my skills in WordPress development, showcasing a fully responsive and user-friendly educational website.<br>
+                 From theme customization to seamless API integration, it demonstrates my ability to build dynamic and engaging web solutions. </p>
+<a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>        
+        </div>
+    </div>
+</div>
+<a href="#" class="btn">See more</a>
+
+
+</div>
+ </div>
+<!-- -----------contact----------- ---->
+<div id="contact">
+<div class="container">
+<div class="row">
+    <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>jganguly399@gmail.com</p>
+        <p><i class="fa-solid fa-square-phone"></i>8820088854</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/ratul-ganguly-aa799a30e/ "> <i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Ratul008-dev"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="image/the resume.jpg" download class="btn btn2">Download CV</a>
+    </div>
+    <div class="contact-right">
+<form name= "submit-to-google-sheet" >
+<input type="text" name="Name" placeholder="Your Name" required>
+<input type="email" name="Email" placeholder="Your Email" required>
+<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+<button type="submit" class="btn btn2">Submit</button>
+
+
+
+
+
+</form>
+<span id="msg"></span> 
+
+
+
+
+
+
+
+    </div>
+</div>
+
+</div>
+<div class="copyright">
+    <p>Copyright © 2025 Ratul Ganguly. <i class="fa-solid fa-heart"></i>Design & Developed by Me</p>
+</div>
+</div>
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+
+for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+
+    }
+
+</script>
+<script>
+
+
+    var sidemenu = document. getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+</script>
+
+  
+  <script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbx8f5OUdyUSTQFXJ7nTrZ8WjnFOwWzF9EE439lXy8-se3LW0e9PCKCam47Fevu0D2QgAQ/exec>'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>    
